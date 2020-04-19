@@ -1,0 +1,70 @@
+@import "./reset.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  text-align: center;
+  color: #000000;
+  font-family: "Jost";
+}
+
+.container {
+  padding: 0 10vw;
+}
+
+.navigation {
+  height: 550px;
+  background-image: url(https://via.placeholder.com/1920x550.png);
+  background-position: center;
+}
+
+.carousel {
+  height: 438px;
+  background-color: #263a49;
+}
+
+.productsList {
+  height: 1487px;
+}
+
+.productsCategories {
+  height: 630px;
+}
+
+.newsletter {
+  height: 406px;
+}
+
+.contact {
+  height: 150px;
+}
+
+.header {
+  padding: 37px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__menu {
+  width: 20vw;
+  min-width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__account {
+  width: 3vw;
+  min-width: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  position: absolute;
+  height: 22px;
+  top: 34px;
+}
