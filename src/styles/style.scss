@@ -1,0 +1,180 @@
+@import "./reset.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  text-align: center;
+  color: #000000;
+  font-family: "Jost";
+}
+
+.customContainer {
+  padding: 0 15vw;
+}
+
+.navigation {
+  height: 550px;
+  background-image: url(https://via.placeholder.com/1920x550.png);
+  background-position: center;
+}
+
+.slider {
+  height: 438px;
+  background-color: #263a49;
+  position: relative;
+}
+
+.productsList {
+  height: 1487px;
+}
+
+.productsList__title {
+  font-size: 48px;
+  font-weight: 500;
+  padding: 108px 0;
+}
+
+.productsCategories {
+  height: 630px;
+}
+
+.newsletter {
+  height: 406px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact {
+  height: 150px;
+}
+
+.header {
+  padding: 37px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__menu {
+  width: 20vw;
+  min-width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__account {
+  width: 3vw;
+  min-width: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  position: absolute;
+  height: 22px;
+  top: 34px;
+}
+
+.arrow {
+  position: absolute;
+  top: 212px;
+}
+
+.productDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 114px;
+  padding-top: 25px;
+  font-size: 13px;
+}
+
+.productDescription__price {
+  font-weight: 700;
+  padding-top: 13px;
+}
+
+.productsList__button {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 17px 33px;
+  border: solid 2px black;
+  background-color: white;
+}
+
+.column1 {
+  background-color: rgb(168, 168, 168);
+  height: 630px;
+}
+.column2 {
+  background-color: rgb(168, 168, 168);
+  height: 310px;
+  margin-left: 10px;
+}
+.column3 {
+  background-color: rgb(168, 168, 168);
+  height: 310px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.newsletter__title {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 98px;
+}
+
+.newsletter__description {
+  font-size: 16px;
+  margin-top: 35px;
+}
+.newsletter__form {
+  width: 30vw;
+  border-bottom: solid 2px black;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 69px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.form__input {
+  background-color: white;
+  border: none;
+  color: rgba(69, 69, 69, 0.5);
+}
+
+.form__label {
+  text-align: right;
+}
+.spam {
+  font-size: 13px;
+  font-weight: 500;
+  color: #454545;
+  width: 30vw;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+.contactfooter {
+  width: 20vw;
+  display: flex;
+}
+
+.policy {
+  justify-content: center;
+}
+
+.settings {
+  justify-content: flex-end;
+}
